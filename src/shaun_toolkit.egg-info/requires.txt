@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+httpx
+
+[dev]
+pytest
+pytest-cov
+ruff
+black
+mypy
+pre-commit
