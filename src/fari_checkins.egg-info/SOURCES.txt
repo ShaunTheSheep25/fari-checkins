@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/fari_checkins/__init__.py
+src/fari_checkins/main.py
+src/fari_checkins.egg-info/PKG-INFO
+src/fari_checkins.egg-info/SOURCES.txt
+src/fari_checkins.egg-info/dependency_links.txt
+src/fari_checkins.egg-info/requires.txt
+src/fari_checkins.egg-info/top_level.txt
+tests/test_hello.py

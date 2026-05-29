@@ -1,11 +1,13 @@
 [project]
-name = "shaun-toolkit"
+name = "fari-checkins"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
     "fastapi",
     "uvicorn",
     "httpx",
+    "sqlalchemy>=2.0",
+    "pydantic>=2.0",
 ]
 
 [project.optional-dependencies]

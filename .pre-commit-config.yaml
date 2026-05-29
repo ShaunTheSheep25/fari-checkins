@@ -15,4 +15,4 @@ repos:
     hooks:
       - id: mypy
         args: [--strict]
-        additional_dependencies: [fastapi, pydantic]
+        additional_dependencies: [fastapi, pydantic, sqlalchemy, pytest]
