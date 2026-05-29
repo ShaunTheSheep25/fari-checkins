@@ -120,7 +120,7 @@ def create_checkin(checkin: CheckinCreate, db: Session = Depends(get_db)) -> Che
     return ck
 
 
-@app.get("/checkins/resident/{resident_id}", response_model=list[Checkin])
+@app.get("/checkins/resident/{resident_id}", response_model=list[CheckinResponse])
 def get_checkins(resident_id: int, db: Session = Depends(get_db)) -> list[Checkin]:
     resident = db.query(Resident).filter(Resident.id == resident_id).first()
     if not resident:
